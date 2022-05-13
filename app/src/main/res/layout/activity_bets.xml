@@ -27,13 +27,13 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+            app:layout_constraintBottom_toTopOf="@+id/depositphone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextPhone"
+            android:id="@+id/depositphone"
             android:layout_width="275dp"
             android:layout_height="42dp"
             android:layout_marginStart="78dp"
@@ -48,7 +48,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/depositcode"
             android:layout_width="273dp"
             android:layout_height="40dp"
             android:layout_marginStart="82dp"
@@ -60,7 +60,7 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+            app:layout_constraintTop_toBottomOf="@+id/depositphone" />
 
         <Button
             android:id="@+id/button"
@@ -72,6 +72,6 @@
             android:text="check"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/depositcode" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

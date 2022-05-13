@@ -22,19 +22,19 @@ public class MainActivity extends AppCompatActivity {
 		deposit.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(this,Deposit.class);
+				startActivity(new Intent(MainActivity.this, Deposit.class));
 			}
 		});
 		withdraw.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(this,withdraw.class);
+					startActivity(new Intent(MainActivity.this,withdraw.class));
 			}
 		});
 		bets.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(this,bets.class);
+					startActivity(new Intent(MainActivity.this,bets.class));
 			}
 		});
 
