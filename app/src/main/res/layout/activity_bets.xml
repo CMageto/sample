@@ -33,9 +33,9 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/depositphone"
+            android:id="@+id/betsphone"
             android:layout_width="275dp"
-            android:layout_height="42dp"
+            android:layout_height="48dp"
             android:layout_marginStart="78dp"
             android:layout_marginTop="62dp"
             android:layout_marginEnd="56dp"
@@ -48,30 +48,30 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <EditText
-            android:id="@+id/depositcode"
+            android:id="@+id/betscode"
             android:layout_width="273dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="82dp"
-            android:layout_marginTop="74dp"
-            android:layout_marginEnd="54dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="58dp"
             android:background="@drawable/borders"
             android:ems="10"
             android:hint="transaction code"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/depositphone" />
+            app:layout_constraintTop_toBottomOf="@+id/betsphone" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/betscheck"
             android:layout_width="224dp"
-            android:layout_height="47dp"
-            android:layout_marginStart="103dp"
-            android:layout_marginTop="77dp"
-            android:layout_marginEnd="82dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="77dp"
             android:text="check"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/depositcode" />
+            app:layout_constraintTop_toBottomOf="@+id/betscode" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
