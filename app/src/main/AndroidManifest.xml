@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Complaintssample">
         <activity
+            android:name=".addtoreport"
+            android:exported="false" />
+        <activity
+            android:name=".displayreport"
+            android:exported="false" />
+        <activity
             android:name=".bets"
             android:exported="false" />
         <activity

@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/drawable/borders.xml" value="0.2195" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_addtoreport.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_bets.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_deposit.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_displayreport.xml" value="0.4173913181932306" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_main.xml" value="0.2942708333333333" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/activity_withdraw.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/complaintssample/app/src/main/res/layout/incident.xml" value="0.220703125" />
       </map>
     </option>
   </component>
